@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51143d3e-fa24-44b4-be6c-49767a22f173" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/go/sdk/go1.15.5" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1kyIhuBpuogRv0TWK7WCDkRBOCW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build github.com/richard87/iothub" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="IOTHub" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="github.com/richard87/iothub" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51143d3e-fa24-44b4-be6c-49767a22f173" name="Default Changelist" comment="" />
+      <created>1606666526547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606666526547</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="595" y="187" width="400" height="684" key="#GOPATH" timestamp="1606666569233">
+      <screen x="0" y="27" width="1600" height="997" />
+    </state>
+    <state x="595" y="187" width="400" height="684" key="#GOPATH/0.27.1600.997@0.27.1600.997" timestamp="1606666569233" />
+    <state x="595" y="458" width="410" height="141" key="#GOROOT" timestamp="1606666552920">
+      <screen x="0" y="27" width="1600" height="997" />
+    </state>
+    <state x="595" y="458" width="410" height="141" key="#GOROOT/0.27.1600.997@0.27.1600.997" timestamp="1606666552920" />
+    <state x="595" y="362" width="400" height="334" key="#Go_Modules" timestamp="1606666621731">
+      <screen x="0" y="27" width="1600" height="997" />
+    </state>
+    <state x="595" y="362" width="400" height="334" key="#Go_Modules/0.27.1600.997@0.27.1600.997" timestamp="1606666621731" />
+    <state x="258" y="183" width="1084" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606666986313">
+      <screen x="0" y="27" width="1600" height="997" />
+    </state>
+    <state x="258" y="183" width="1084" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1600.997@0.27.1600.997" timestamp="1606666986313" />
+    <state x="578" y="287" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606666567948">
+      <screen x="0" y="27" width="1600" height="997" />
+    </state>
+    <state x="578" y="287" width="424" height="491" key="FileChooserDialogImpl/0.27.1600.997@0.27.1600.997" timestamp="1606666567948" />
+    <state width="1354" height="244" key="GridCell.Tab.0.bottom" timestamp="1606669955305">
+      <screen x="0" y="27" width="1600" height="997" />
+    </state>
+    <state width="1354" height="244" key="GridCell.Tab.0.bottom/0.27.1600.997@0.27.1600.997" timestamp="1606669955305" />
+    <state width="1354" height="244" key="GridCell.Tab.0.center" timestamp="1606669955304">
+      <screen x="0" y="27" width="1600" height="997" />
+    </state>
+    <state width="1354" height="244" key="GridCell.Tab.0.center/0.27.1600.997@0.27.1600.997" timestamp="1606669955304" />
+    <state width="1354" height="244" key="GridCell.Tab.0.left" timestamp="1606669955304">
+      <screen x="0" y="27" width="1600" height="997" />
+    </state>
+    <state width="1354" height="244" key="GridCell.Tab.0.left/0.27.1600.997@0.27.1600.997" timestamp="1606669955304" />
+    <state width="1354" height="244" key="GridCell.Tab.0.right" timestamp="1606669955304">
+      <screen x="0" y="27" width="1600" height="997" />
+    </state>
+    <state width="1354" height="244" key="GridCell.Tab.0.right/0.27.1600.997@0.27.1600.997" timestamp="1606669955304" />
+    <state x="289" y="160" key="SettingsEditor" timestamp="1606673194371">
+      <screen x="0" y="27" width="1600" height="997" />
+    </state>
+    <state x="289" y="160" key="SettingsEditor/0.27.1600.997@0.27.1600.997" timestamp="1606673194371" />
+  </component>
+</project>

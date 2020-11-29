@@ -1,0 +1,83 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    io.kompose.service: iothub
+  name: iothub
+  namespace: iothub
+spec:
+  selector:
+    matchLabels:
+      io.kompose.service: iothub
+  template:
+    metadata:
+      labels:
+        io.kompose.service: iothub
+    spec:
+      containers:
+      - image: gcr.io/skil-196709/iothub
+        imagePullPolicy: Always
+        name: iothub
+        ports:
+        - containerPort: 8080
+      restartPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    io.kompose.service: iothub
+  name: iothub
+  namespace: iothub
+spec:
+  ports:
+    - name: web
+      port: 8080
+  selector:
+    io.kompose.service: iothub
+---
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: iothub
+  namespace: iothub
+spec:
+  entryPoints:
+    - websecure
+  routes:
+    - match: Host(`iothub.r6.no`)
+      kind: Rule
+      services:
+        - name: iothub
+          port: 8080
+  tls:
+    certResolver: myresolver
+---
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: iothub-ingress-redirect
+  namespace: iothub
+spec:
+  entryPoints:
+    - web
+  routes:
+    - match: Host(`iothub.r6.no`)
+      kind: Rule
+      services:
+        - name: iothub
+          port: 8080
+      middlewares:
+        - name: https-redirect
+
+---
+
+apiVersion: traefik.containo.us/v1alpha1
+kind: Middleware
+metadata:
+  name: https-redirect
+  namespace: iothub
+spec:
+  redirectScheme:
+    scheme: https
+    permanent: true

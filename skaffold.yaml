@@ -1,0 +1,15 @@
+apiVersion: skaffold/v2beta8
+kind: Config
+metadata:
+  name: iothub
+deploy:
+  kubectl:
+    manifests:
+    - service.yaml
+build:
+  local:
+    push: true
+    useBuildkit: true
+
+  artifacts:
+    - image: gcr.io/skil-196709/iothub
